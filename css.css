@@ -16,7 +16,10 @@ img {
     position: relative;
 }
 .auto {
-/*helyezd el az autót a lámpa alatt az úttesten!*/
+    position: absolute;
+    top: 40%;
+    left: calc(30% - 100px);
+    padding: 10px;
 
 }
 .lampa {
@@ -37,13 +40,13 @@ img {
     /* background-color: lavender; */
 }
 .piros {
-    background: rgb(146, 35, 35);
+    background: rgb(253, 2, 2);
 }
 .sarga {
-    background: rgb(230, 196, 84);
+    background: rgb(255, 217, 0);
 }
 .zold {
-    background: rgb(59, 190, 47);
+    background: rgb(29, 252, 8);
 }
 .balroljobbra {
     /*https://webiskola.hu/css-ismeretek/css-animacio-animation-keszitese/*/
